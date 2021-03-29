@@ -14,8 +14,11 @@ spec:
     gitName: github
     gitServer: https://github.com
     provider: minikube
+    registry: 10.108.180.139
   environments:
   - key: dev
+    owner: cybaspace
+    repository: jx3
   - key: staging
   - key: production
   ingress:
@@ -27,6 +30,8 @@ spec:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: cybaspace
   repository: bucketrepo
   secretStorage: local
   vault: {}
