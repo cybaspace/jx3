@@ -9,6 +9,7 @@ spec:
     providerKind: github
     repositories:
     - name: jx-test
+    - name: jx2-test
     scheduler: in-repo
   jenkinsServers:
   - groups:
