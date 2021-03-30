@@ -3,6 +3,13 @@ kind: SourceConfig
 metadata:
   creationTimestamp: null
 spec:
+  groups:
+  - owner: cybaspace
+    provider: https://github.com
+    providerKind: github
+    repositories:
+    - name: jx-test
+    scheduler: in-repo
   jenkinsServers:
   - groups:
     - owner: cybaspace
